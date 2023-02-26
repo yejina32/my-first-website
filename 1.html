@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Web1 - HTML</title>
-<meta charset="utf-8">
+    <title>Web1 - HTML</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="my-style.css">
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-8CYQB0Q6CH"></script>
@@ -15,21 +16,25 @@
 </script>
 <body>
     <h1><a href="index.html">WEB</a></h1>
-    <ol>
-        <li><a href="1.html">HTML</a></li>
-        <li><a href="2.html">CSS</a></li>
-        <li><a href="3.html">JavaScript</a></li>
-    </ol>
-    <h2>HTML은 무엇인가?</h2>
-    <p><a href="https://www.w3.org/TR/html4/" target="_blank" 
-        title="Tool Tip">HyperText Markup Language(HTML)</a> is the standartd markup language
-        for <strong>creating <u>web</u> pages</strong> and 
-        web applications</p>
-    <p style="margin-top:30px;">Rack your progress with the free 
-    "My Learning" program here at W3Schools.<br>
-    Log in to your account, and start earning points!<br>
-    This is an optional feature. You can study W3Schools without 
-    using My Learning.</p>
+    <div id="grid">
+        <ol>
+          <li><a href="1.html" style="text-decoration:underline" class="saw" id="active">HTML</a></li>
+          <li><a href="2.html" class="saw">CSS</a></li>
+          <li><a href="3.html" class="saw">JavaScript</a></li>
+        </ol>
+        <div id="article">
+            <h2>HTML은 무엇인가?</h2>
+            <p><a href="https://www.w3.org/TR/html4/" target="_blank" 
+                title="Tool Tip">HyperText Markup Language(HTML)</a> is the standartd markup language
+                for <strong>creating <u>web</u> pages</strong> and 
+                web applications</p>
+            <p style="margin-top:30px;">Rack your progress with the free 
+            "My Learning" program here at W3Schools.<br>
+            Log in to your account, and start earning points!<br>
+            This is an optional feature. You can study W3Schools without 
+            using My Learning.</p>
+        </div>
+    </div>
     <img src="coding.jpg" width="100%">
 </body>
 </html>
